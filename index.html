@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Standards | Nagel Academy</title>
+    <title>Privacy Standards | YS-Tech Academy</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -225,7 +225,35 @@
             position: relative;
             z-index: 1;
         }
+/* Styled Legal Box for Disclaimer */
+        .disclaimer-box {
+            background-color: #FFF5F5;
+            border-left: 5px solid var(--cherry-red);
+            padding: 30px;
+            border-radius: 16px;
+            margin: 40px 0;
+        }
 
+        .disclaimer-box h4 {
+            margin: 0 0 15px 0;
+            color: #C53030;
+            font-size: 1.15rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .disclaimer-box ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .disclaimer-box li {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #9B2C2C;
+            margin-bottom: 10px;
+        }
         /* Signature Footer */
         footer {
             text-align: center;
@@ -296,11 +324,20 @@
 
             <h2>Functional Transparency</h2>
             <p>We utilize only essential device permissions required for core app functionality. These permissions serve the sole purpose of enabling the experience on your hardware, never for harvesting information.</p>
-
+ <h2>Liability & Safety Standards</h2>
+            <div class="disclaimer-box">
+                <h4>Legal Disclaimer & Terms of Use</h4>
+                <ul>
+                    <li><strong>Educational Purpose Only:</strong> Scooty Angel is an informational and self-learning utility. It does not constitute or replace professional on-road instruction, legal training, or certified driving coaching.</li>
+                    <li><strong>User Risk & Responsibility:</strong> Operating motorized vehicles carries inherent risks of injury or property damage. Users must execute all practice sessions in safe, legal, non-traffic areas (such as closed grounds) wearing full protective equipment including a certified helmet.</li>
+                    <li><strong>Limitation of Liability:</strong> In no event shall the developer (YS-Tech Academy), publishers, or corporate entities be held liable for any personal injury, financial loss, accident, vehicular damage, legal penalty, or consequential damages resulting directly or indirectly from the practical application of instructions, guides, or voice commands within this application. All practice is done entirely at the user's own risk.</li>
+                </ul>
+            </div>
             <div style="margin-top: 80px; padding: 40px; background: var(--bg-smoke); border-radius: 24px; border: 1px solid var(--cherry-red); text-align: center; transition: var(--transition-smooth);" onmouseover="this.style.backgroundColor='var(--pure-white)'; this.style.boxShadow='0 20px 50px var(--cherry-glow)'" onmouseout="this.style.backgroundColor='var(--bg-smoke)'; this.style.boxShadow='none'">
                 <p style="margin: 0 0 10px; color: var(--deep-black); font-weight: 700; font-size: 1.1rem;">Dedicated to Ethical Innovation.</p>
                 <p style="margin: 0; color: var(--cherry-red); font-weight: 600;">ystechacademy@gmail.com</p>
             </div>
+           
         </div>
     </div>
 
